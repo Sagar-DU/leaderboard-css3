@@ -21,6 +21,7 @@ main {
 
 hr {
     border: 1px solid #D1D1D1;
+    margin-bottom: 27px;
 }
 
 /* top players style */
@@ -57,6 +58,7 @@ hr {
 .blogs {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    row-gap: 26px;
 }
 .blog {
     display: flex;
