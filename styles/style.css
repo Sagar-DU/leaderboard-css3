@@ -54,6 +54,10 @@ hr {
 }
 
 /* top blog styles */
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
 .blog {
     display: flex;
 }
@@ -65,4 +69,18 @@ hr {
 
 .blog-info {
     margin-left: 16px;
+}
+
+.blog-title {
+    font-size: 20px;
+}
+
+.blog-author {
+    color: #9F9F9F;
+    font-size: 16px;
+}
+
+.blog-author a {
+    color: #562EFF;
+    text-decoration: none;
 }
