@@ -52,3 +52,17 @@ hr {
     margin-left: 16px;
     font-size: 18px;
 }
+
+/* top blog styles */
+.blog {
+    display: flex;
+}
+
+.blog .thumbnail img{
+    width: 177px;
+    height: 117px;
+}
+
+.blog-info {
+    margin-left: 16px;
+}
