@@ -92,9 +92,20 @@ hr {
 
 /* Courses Styles */
 
+.courses {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 25px;
+}
+
 .course .course-banner img {
     width: 224px;
     height: 104px;
+}
+
+.course-author {
+    font-size: 15px;
+    color: #ED6B4F;
 }
 
 .course-info {
@@ -113,4 +124,9 @@ hr {
 
 .fa-star.empty {
     color: #AEAEAE;
+}
+
+.course-duration {
+    color: #FF4A60;
+    background-color: #FEE5DF;
 }
