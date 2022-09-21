@@ -202,3 +202,43 @@ ul li {
     border-radius: 15px;
     padding-right: 16px;
 }
+
+/*
+---------------------
+    Media Queries
+--------------------- 
+*/
+
+/* 
+----------------------
+    Mobile Devices 
+----------------------
+*/
+@media only screen and (max-width: 688px) {
+    nav {
+        height: 56px;
+        width: 125%;
+    }
+    .top-links {
+        padding: 0px;
+    }
+    .logo li, .logo a{
+        padding: 4px;
+    }
+    .links li, .links a {
+        padding: 4px;
+    }
+
+    .container {
+        width: 100%;
+        text-align: center;
+    }
+
+    .players, .blogs, .courses {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .player, .blog {
+        flex-direction: column;
+    }
+}
