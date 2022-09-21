@@ -250,5 +250,34 @@ ul li {
 */
 
 @media only screen and (min-width: 688px) and (max-width: 992px) {
+    nav {
+        width: 108%;
+    }
+    .top-links {
+        padding: 0px;
+    }
+    .logo li, .logo a{
+        padding: 6px;
+    }
+    .links li, .links a {
+        padding: 6px;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .players, .courses {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .player {
+        justify-content: center;
+    }
+
+    .players, .blogs, .section-title {
+        margin-left: 10px;
+    }
+
     
 }
